@@ -109,6 +109,7 @@ function maj_prompt() {
     // séparer chaque caractère en un élement distinct pour pouvoir les styler individuellement par la suite
     current_prompt.split('').forEach(char => {
         const span_caractere = document.createElement('span')
+        span_caractere.classList.add("prompt")
         span_caractere.innerText = char
         prompt_value.appendChild(span_caractere)
         })
