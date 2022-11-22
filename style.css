@@ -133,11 +133,11 @@ h1 {
 #prompt {
     color: black;
     background-color: whitesmoke;
-    width: 30%;
+    width: 40%;
     margin: 18px;
     padding: 32px;
     border-radius: 14px;
-    font-size: large;
+    font-size: larger;
     font-weight: 400;
 
 }
@@ -148,15 +148,19 @@ h1 {
     height: 250px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 32px;
+    font-size: large;
+    border-radius: 14px;
 }
 
 
 #start_btn {
-    width: 90px;
+    width: 120px;
     height: 32px;
     background-color: blueviolet;
+    color: white;
     border: 0;
     border-radius: 12px;
+    margin: 8px;
     }
 
 
