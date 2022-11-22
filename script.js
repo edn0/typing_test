@@ -2,10 +2,14 @@
 
 let duree = 60;
 
+
+// merci r/TwoSentenceHorror
 let liste_prompts = [
-    "Il était une fois, un drôle de chimpanzé qui se balladait sans trop savoir où aller. Il croisa le chemin d'une gazelle qui lui demandit alors ce qu'il faisait dans ce coin de la savane. Lui même cherchant une réponse à la question, il fit mine de se gratter la tête puis lui retourna la question.",
-    "L'histoire deux",
-    "L'histoire trois"
+    "Les parents sont partis manger dehors ce soir, et mon est sorti en soirée avec des amis. Il n'y a pas un bruit dans la maison.",
+    "Il n'y a que le bruit du vent dehors. Les seules lumières que je vois depuis ma chambre sont celles des vérandas des voisins, et les étoiles.",
+    "Parfois, j'ai du mal à les distinguer de leur reflet. Par contre, je n'ai pas de doute, les étoiles ne peuvent pas se refléter au fond d'un placard entrouvert.",
+    "Paniqué, je suis resté blotti dans mon lit. Ce n'est que le lendemain que j'ai été voir si quelque chose se trouvait dans le placard.",
+    "Le point lumineux que j'ai observé dans la nuit était celui d'une caméra pointée en direction de mon lit."
 ]
 
 
