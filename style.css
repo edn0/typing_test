@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    background-color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#header_wrapper {
+    background-color: rgba(51, 51, 51, 0.726);
+    display: flex;
+    flex-flow: row;
+    height: fit-content;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: baseline;
+    align-items: center;
+    background: url("https://cdn.stocksnap.io/img-thumbs/960w/keyboard-keys_9EJ2TLEMN1.jpg") no-repeat left/100%,linear-gradient(to right, rgb(189, 189, 189) 70%, transparent);
+    height: 280px;
+}
+
+.reduced {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.reduced_header {
+    animation: slide 200ms ease-out forwards;
+}
+
+@keyframes slide {
+    0% {opacity: 0;}
+    50% {justify-content: center;}
+    60% {opacity: 0;}
+    80% {opacity: 1;}
+    100% {justify-content: center;}
+
+}
+
+h1 {
+    color: white;
+    background-color: rgba(137, 43, 226, 0.562);
+    height: fit-content;
+    padding: 26px;
+    margin: 4px;
+}
+
+#mpm_label,
+#fpm_label,
+#err_label,
+#time_label,
+#precision_label {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-transform:uppercase;
+    transition: 250ms ease-in-out;
+
+    background: linear-gradient(75deg, 
+    transparent,
+    rgba(137, 43, 226, 0.404),
+    rgba(137, 43, 226, 0.825),
+    rgba(137, 43, 226, 0.404),
+    transparent
+    );
+    background-size: 200%;
+    background-position: left;
+    transition: 220ms ease-out;
+    padding: 8px;
+    margin: 4px;
+    color: white;
+    font-size: 18px;
+    width: 100px;
+}
+
+
+#mpm_label:hover,
+#fpm_label:hover,
+#err_label:hover,
+#time_label:hover,
+#precision_label:hover {
+    background-position: right;
+}
+
+#mpm_value,
+#fpm_value,
+#err_value,
+#time_value,
+#precision_value {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#mpm_label_info,
+#fpm_label_info,
+#err_label_info,
+#time_label_info,
+#precision_label_info {
+    height: 0;
+    opacity: 0;
+    font-size: 12px;
+    color: white;
+    background-color: blueviolet;
+    padding: 6px;
+    text-align: center;
+    line-height: 1;
+    transition: 250ms ease-in-out;
+    border-radius: 10px;
+}
+
+#mpm_label_title:hover #mpm_label_info,
+#fpm_label_title:hover #fpm_label_info,
+#err_label_title:hover #err_label_info,
+#time_label_title:hover #time_label_info,
+#precision_label_title:hover #precision_label_info  {
+    height: 12px;
+    opacity: 1;
+}
+
+
+#prompt {
+    color: black;
+    background-color: whitesmoke;
+    width: 30%;
+    margin: 18px;
+    padding: 32px;
+    border-radius: 14px;
+    font-size: large;
+    font-weight: 400;
+
+}
+
+
+#input_area {
+    width: 550px;
+    height: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 32px;
+}
+
+
+#start_btn {
+    width: 90px;
+    height: 32px;
+    background-color: blueviolet;
+    border: 0;
+    border-radius: 12px;
+    }
+
+
+
+.incorrect_char {
+    color: red;
+}
+    
+    .correct_char {
+    color: blueviolet;
+}

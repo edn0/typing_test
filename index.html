@@ -1,0 +1,89 @@
+<html lang="fr">
+
+<head>
+    <title>Vitesse de frappe 🔤</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="header">
+            <div id="header_wrapper">
+
+                <h1 id="title">Test de dactylographie</h1>
+
+                <div id="mpm">
+
+                    <div id="mpm_label">
+                        <span id="mpm_label_title">mpm</span>
+                        <span id="mpm_label_info">Mots par minute</span>
+                        <div id="mpm_value">0</div>
+                    </div>
+
+                </div>
+                
+                <div id="fpm">
+
+                    <div id="fpm_label">
+                        <span id="fpm_label_title">fpm</span>
+                        <span id="fpm_label_info">Frappes par minute</span>
+                        <div id="fpm_value">0</div>
+                    </div>
+
+                </div>
+
+                <div id="err">
+
+                    <div id="err_label">
+                        <span id="err_label_title">err</span>
+                        <span id="err_label_info">Erreur(s)</span>
+                        <div id="err_value">0</div>
+                    </div>
+
+                </div>
+
+                <div id="time">
+
+                    <div id="time_label">
+                        <span id="time_label_title">time</span>
+                        <span id="time_label_info">Temps restant</span>
+                        <div id="time_value">0</div>
+                    </div>
+
+                </div>
+
+                <div id="precision">
+
+                    <div id="precision_label">
+                        <span id="precision_label_title">precision</span>
+                        <span id="precision_label_info">Précision</span>
+                        <div id="precision_value">0</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="prompt">Pressez le bouton "Commencer" ci-dessous pour démarrer le test.</div>
+
+
+        <textarea id="input_area" placeholder="Commencez à écrire ici..." oninput="process_current_text()" onfocus="start_game()"></textarea>
+
+
+        <button id="start_btn" onclick="start_game()">Recommencer</button>
+
+
+    </div>
+
+
+</body>
+
+<script src="../script.js"></script>
+
+
+</html>
