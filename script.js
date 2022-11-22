@@ -5,10 +5,10 @@ let duree = 60;
 
 // merci r/TwoSentenceHorror
 let liste_prompts = [
-    "Les parents sont partis manger dehors ce soir, et mon est sorti en soirée avec des amis. Il n'y a pas un bruit dans la maison.",
-    "Il n'y a que le bruit du vent dehors. Les seules lumières que je vois depuis ma chambre sont celles des vérandas des voisins, et les étoiles.",
-    "Parfois, j'ai du mal à les distinguer de leur reflet. Par contre, je n'ai pas de doute, les étoiles ne peuvent pas se refléter au fond d'un placard entrouvert.",
-    "Paniqué, je suis resté blotti dans mon lit. Ce n'est que le lendemain que j'ai été voir si quelque chose se trouvait dans le placard.",
+    "Les parents sont partis manger dehors ce soir, et mon frère est sorti en soirée avec des amis. Il n'y a pas un bruit dans la maison.",
+    "Il n'y a que le bruit du vent dehors. Les seules lumières que je vois depuis ma chambre sont celles des vérandas des voisins, et du ciel étoilé.",
+    "Parfois, j'ai du mal à distinguer les étoiles de leur reflet. Par contre, je n'ai pas de doute, les étoiles ne peuvent pas se refléter au fond d'un placard entrouvert.",
+    "Paniqué, je suis resté blotti sous la couette. Ce n'est que le lendemain que j'ai été voir si quelque chose se trouvait dans le placard.",
     "Le point lumineux que j'ai observé dans la nuit était celui d'une caméra pointée en direction de mon lit."
 ]
 
