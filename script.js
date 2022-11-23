@@ -70,8 +70,8 @@ function finish_game() {
 
    
     // calculate cpm and wpm
-    mpm = Math.round(((characters_typed / time_elapsed) * 60));
-    fpm = Math.round((((characters_typed / 5) / time_elapsed) * 60));
+    fpm = Math.round(((characters_typed / time_elapsed) * 60));
+    mpm = Math.round((((characters_typed / 5) / time_elapsed) * 60));
    
     // update cpm and wpm text
     mpm_value.textContent = mpm;
