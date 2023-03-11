@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-flow: row;
     height: fit-content;
+    align-items: center;
 }
 
 #header {
